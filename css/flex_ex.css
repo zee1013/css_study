@@ -8,6 +8,7 @@
     /* flex-wrap: wrap; */
     gap: 20px;
     padding: 30px;
+    margin-bottom: 10px;
     width: 700px;
     background-color: antiquewhite;
 }
@@ -37,10 +38,18 @@
 /* 연습2 */
 .ex2{
     display: flex;
+    width: 300px;
+    gap: 10px;
     background-color: lightsteelblue;
-    padding: 30px;
+    padding: 20px;
+    margin-left: 10px;
 }
-
+.text-box2{
+    margin: 10px;
+}
+.text-box2 h3{
+    margin-bottom: 10px;
+}
 .image-box2 img{
     width: 100px;
     border-radius: 50%;
