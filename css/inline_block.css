@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 리스트에 무조건 써주기! */
+ul, li{
+    list-style: none;
+}
+nav{
+    width: 500px;
+    padding: 10px;
+    margin: 50px auto;
+    background-color: tomato;
+}
+ul{
+    padding: 10px;
+    background-color: green;
+}
+li{
+    text-align: center;
+    padding: 10px;
+    /* 계산할 때 띄우기 꼭 하기 */
+    width: calc((100% / 4) - 4px);
+    display: inline-block;
+    background-color: lightgreen;
+}
+
+.img-content{
+    margin: 50px auto;
+    width: 500px;
+    background-color: rgb(250, 185, 180);
+}
+.img-content img{
+    width: 130px;
+    display: inline-block;
+}
+.img-content p{
+    width: 300px;
+    display: inline-block;
+    background-color: ivory;
+}

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ex{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    padding: 30px;
+    width: 700px;
+    background-color: antiquewhite;
+}
+.img-box{
+    width: 250px;
+}
+.img-box img{
+    border-radius: 10%;
+}
+.text-box{
+    width: 400px;
+    /* background-color: white; */
+}
+.text-box h3{
+    width: 170px;
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+.text-box h2{
+    margin-bottom: 10px;
+}
+
+/* 연습2 */
+.ex2{
+    display: flex;
+    background-color: lightsteelblue;
+    padding: 30px;
+}
+
+.image-box2 img{
+    width: 100px;
+    border-radius: 50%;
+}
