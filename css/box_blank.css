@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+}
+#box1{
+    background-color: aliceblue;
+}
+#box2{
+    background-color: rgb(222, 236, 248);
+    /* auto는 너비값이 있어야함. block만 가능 */
+    margin: 0 auto;
+}
+#box3{
+    background-color: rgb(174, 195, 212);
+    /* margin: 40px auto; */
+    /* margin-left: auto; */
+    margin-right: auto;
+}
+div{
+    width: 500px;
+    margin: 20px auto;
+}
+.ex1{
+    border: 1px dotted #333;
+    border-radius: 30px 30px 0px 0px;
+    padding: 20px;
+}
+h1{
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 10px;
+}
+.ex2{
+    border: 1px dotted #333;
+    padding: 20px;
+}
+h2{
+    margin-bottom: 15px;
+}
+ol{
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
