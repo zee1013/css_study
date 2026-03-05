@@ -1,0 +1,41 @@
+/* *는 모두를 뜻 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+.menu1{
+    /* list-style-type: none; */
+    /* list-style-type:decimal; */
+    /* list-style-image: url("../image/google_logo.png"); */
+    background-color: aliceblue;
+}
+/* 한 칸 띄우는 것은 ul 안에 있는 모든 li에 적용 */
+.menu1 li{
+    width: 100px;
+    height: 50px;
+    border: 1px solid skyblue;
+    /* margin: 10px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.menu2{
+    width: 100px;
+    background-color: rgb(213, 241, 241);
+    padding: 10px;
+}
+.menu2 li{
+    border: 1px solid skyblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 10px;
+    margin-bottom: 10px; */
+}
+.menu2 li:last-child{
+    margin: 0px;
+}
